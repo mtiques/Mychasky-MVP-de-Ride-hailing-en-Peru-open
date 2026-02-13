@@ -1,3 +1,22 @@
+# --- Carpetas de Compilación (Fundamentales) ---
 target/
+bin/
+
+# --- Configuraciones de Editores (Limpieza) ---
 .idea/
 .vscode/
+*.iml
+*.iws
+.settings/
+.classpath
+.project
+
+# --- Archivos de Sistema y Logs ---
+.DS_Store
+*.log
+tmp/
+
+# --- Archivos de Maven
+.mvn/
+mvnw
+mvnw.cmd
